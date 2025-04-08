@@ -1,0 +1,66 @@
+/* style.css */
+
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Different font */
+    line-height: 1.6;
+    margin: 0; /* Reset default margin */
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles (using ID selector) */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px; /* Padding */
+    text-align: center;
+}
+
+/* Navigation links (using class selector) */
+nav a {
+    display: inline-block; /* Allows setting margins */
+    margin: 0 15px;      /* Margin */
+    text-decoration: none;
+    color: white;
+    padding: 10px;      /* Padding */
+    border-radius: 5px; /* Border radius */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+/* Image styles (using element selector and class) */
+img {
+  max-width: 100%; /* Responsive image */
+  height: auto;    /* Maintain aspect ratio */
+}
+
+.featured-image {
+    display: block; /* Prevent space below image */
+    margin: 20px auto; /* Center the image */
+    border: 5px solid #ddd; /* Border */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Section styles (using class selector) */
+.section {
+    background-color: white;
+    margin: 20px; /* Margin */
+    padding: 20px; /* Padding */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer styles (using element selector) */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px; /* Margin */
+}
